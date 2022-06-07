@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edFirst"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/edLast"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textAutoComplete"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+</LinearLayout>
